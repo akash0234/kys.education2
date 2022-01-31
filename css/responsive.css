@@ -1,0 +1,100 @@
+@media (max-width:600px) {
+    .right-dis {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .left-dis {
+      width: 100%;
+      text-align: center;
+    }
+  }
+@media (max-width:991px) {
+    .login-btn {
+        position:absolute;
+        right:10%;
+        top: 40px;
+    }
+    .navbar-brand {
+        padding: 15px 0px;
+     
+    }    
+    a.nav-link {
+        border: 1px solid;
+        padding: 15px !important;
+        margin-bottom: 10px;
+    }
+    .navbar-toggler{
+        filter: invert(1) brightness(5);
+        z-index: 9;
+        transform: scale(1.5);
+        border: none;
+    }
+    .navbar a.btn1, .navbar a.btn2 {
+      
+        font-size: 12px;
+    }
+    button:focus {
+        outline: none;
+       
+    }
+
+    .subscribe-form {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+      }
+    
+      .subscribe-form > p {
+        margin-left: -5px;
+      }
+    
+      .site-logo {
+        float: left;
+        width: 28%;
+        padding: 10px;
+      }
+    
+      .main-nav {
+        top: 30%;
+        left: 12%;
+      }
+    
+      .site-links {
+        float: left;
+        width: 20%;
+        padding: 10px;
+      }
+    
+      .adr-email{
+        width: 35%;
+      }
+    
+      .adr-email .email {
+        font-size: 12px;
+      }
+      .container-custom{
+          max-width: 95%;
+          margin: auto;
+          padding: 0 50px ;
+      }
+}
+
+
+
+
+
+@media (min-width:992px){
+    .container-custom{
+        max-width: 95%;
+        margin: auto;
+        padding: 0 100px ;
+    }
+
+}
+
+
+
+
+
