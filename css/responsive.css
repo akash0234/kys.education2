@@ -4,17 +4,40 @@
       width: 100%;
       text-align: center;
     }
-  
+    ul#tabs li a {
+      font-size: 10px !important;
+  }
     .left-dis {
       width: 100%;
       text-align: center;
     }
   }
 @media (max-width:991px) {
+  .navbar{
+    padding: initial;
+  }
+  ul#tabs li {
+    margin: 0 5px 0 0;
+    padding: 10px;
+    /* float: left; */
+    display: inline-flex;
+    border: 1px solid #800044;
+    border-radius: 20px;
+    border-bottom-left-radius: inherit;
+    border-top-right-radius: initial;
+    transition: color .1s;
+    width: 45%;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    justify-content: center;
+}
+    ul#tabs li a{
+      font-size: 14px;
+    }
     .login-btn {
         position:absolute;
         right:10%;
-        top: 40px;
+        top: 32px;
     }
     .navbar-brand {
         padding: 15px 0px;

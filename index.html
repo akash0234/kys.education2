@@ -23,7 +23,7 @@
     <div class="main-wrapper">
       <div class="wrapper-fix-footer">
         <header>
-          <div class="container-fluid">
+          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light ">
               <a class="navbar-brand" href="#"><img src="images/kys-logo.svg" width="200" height="50" class="img-fluid" alt=""></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,19 +83,22 @@
 
 
         <section class="kys-meet">
-          <div class="container-custom">
+          <div class="container">
             <div class="row">
              
                 <div class="col-12 text-center">
-                  <h2 class="main-heading mb-5">
-                    ONLINE CLASSROOM
-  
-                  </h2>
+                  <div class="twelve">
+                    <h2>
+                      ONLINE CLASSROOM
+    
+                    </h2>
+                  </div>
+                 
                
                 </div>
             
               <div class="col-12 ">
-                <ul id="tabs" class="d-flex justify-content-center">
+                <ul id="tabs" class="d-lg-flex justify-content-center">
                   <li>
                       <a href="#HybridClassroom">HybridClassroom</a>
                   </li>
@@ -132,75 +135,36 @@
         
                         </h4>
                       </div>
-                      <div class="col-lg-5">
-                        <div class="item-container">
-                          <div class="item-box">
-                              <div class="item-box-ctn">
-                                  <div class="image-wrapper">
-                                      <img src="https://cdn-icons-png.flaticon.com/512/1527/1527553.png" alt="">
-                                  </div>
-                                  <div class="item-box-texts">
-                                      <div class="item-box-head">
-                                          <h3>Talent</h3>
-                                      </div>
-                                      <div class="item-box-p">
-                                          Find, attract and recuit talent
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-          
-                          <div class="item-box">
-                              <div class="item-box-ctn">
-                                  <div class="image-wrapper">
-                                      <img src="https://cdn-icons-png.flaticon.com/512/639/639364.png" alt="">
-                                  </div>
-                                  <div class="item-box-texts">
-                                      <div class="item-box-head">
-                                          <h3>Talent</h3>
-                                      </div>
-                                      <div class="item-box-p">
-                                          Find, attract and recuit talent
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-          
-                          <div class="item-box">
-                              <div class="item-box-ctn">
-                                  <div class="image-wrapper">
-                                      <img src="https://cdn-icons-png.flaticon.com/512/1527/1527553.png" alt="">
-                                  </div>
-                                  <div class="item-box-texts">
-                                      <div class="item-box-head">
-                                          <h3>Talent</h3>
-                                      </div>
-                                      <div class="item-box-p">
-                                          Find, attract and recuit talent
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-          
-                          <div class="item-box">
-                              <div class="item-box-ctn">
-                                  <div class="image-wrapper">
-                                      <img src="https://cdn-icons-png.flaticon.com/512/639/639364.png" alt="">
-                                  </div>
-                                  <div class="item-box-texts">
-                                      <div class="item-box-head">
-                                          <h3>Talent</h3>
-                                      </div>
-                                      <div class="item-box-p">
-                                          Find, attract and recuit talent
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-          
-                      </div>
-                      </div>
                       <div class="col-lg-7">
+                        <div class="single_service row">
+
+                          <div class="service_img col-md-4">
+                            <img alt="YourFlow" class="img-fluid " title="YourFlow" src="images/Picture3.png">
+                          </div>
+                          <div class="service_content col-md-8">
+                            <h3 class="btn_final pos-relative">Admin
+                            </h3>
+                            <ul>
+                              <li class="d-flex">
+                                <div class="arrow-shape  mr-2">
+                                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                </div>
+                           
+                                Setting up KYS for School & creating Online Classroom was easy!
+
+                              </li>
+                              <li class="d-flex">
+                                <div class="arrow-shape mr-2">
+                                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                </div>
+                                I differentiate my School with progressive digital convenience.
+
+
+                              </li>
+                            </ul>
+                            </div></div>
+                      </div>
+                      <div class="col-lg-5">
                         <div class="img-container">
                           <img src="images/Picture1.png" class="img-fluid animate__animated animate__slideInRight" alt="">
                         </div>
@@ -255,7 +219,7 @@
   
       
     <footer>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row-footer row">
         <div class="col-lg-3">
          <a href="#">
@@ -325,7 +289,7 @@
             tabCount = $('ul#tabs').find('li a').length;
             var tabContentObj = $('.tabContent');
             changeTabIndex();
-            timeInterval = setInterval(function () { changeTabIndex(); }, 5 * 1000);
+            timeInterval = setInterval(function () { changeTabIndex(); }, 5 * 100000);
 
             function changeTabIndex() {
                 if (currnetIndex > tabCount) {
@@ -342,7 +306,7 @@
             $('#tabs li').mouseenter(function () {
                 clearInterval(timeInterval);
             }).mouseleave(function () {
-                timeInterval = setInterval(function () { changeTabIndex(); }, 5 * 1000);
+                timeInterval = setInterval(function () { changeTabIndex(); }, 5 * 100000);
             });
 
             $('#tabs li a').click(function (e) {
